@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สาขาเทคโนโลยีธุรกิจดิจิทัล - วิทยาลัยอาชีวศึกษาสระบุรี</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Prompt', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Top Navbar -->
+    <header class="bg-indigo-900 text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-indigo-800 p-2 rounded-lg font-bold text-lg tracking-wider">DBT</div>
+                <div>
+                    <h1 class="font-bold text-sm sm:text-base">สาขาเทคโนโลยีธุรกิจดิจิทัล</h1>
+                    <p class="text-xs text-indigo-200">Digital Business Technology</p>
+                </div>
+            </div>
+            <!-- Search Bar -->
+            <div class="hidden md:flex items-center bg-indigo-950 px-3 py-1.5 rounded-full text-sm">
+                <svg class="w-4 h-4 text-indigo-300 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                <input type="text" placeholder="ค้นหา..." class="bg-transparent focus:outline-none text-white placeholder-indigo-300 text-xs">
+            </div>
+        </div>
+        <!-- Sub Menu -->
+        <nav class="bg-indigo-950/50 border-t border-indigo-800">
+            <div class="max-w-7xl mx-auto px-4 flex space-x-8 text-sm">
+                <a href="#" class="py-2.5 border-b-2 border-indigo-400 font-medium flex items-center"><span class="mr-1.5">🏠</span> หน้าหลัก</a>
+                <a href="#" class="py-2.5 text-indigo-200 hover:text-white flex items-center"><span class="mr-1.5">📅</span> กำหนดการ</a>
+                <a href="#" class="py-2.5 text-indigo-200 hover:text-white flex items-center"><span class="mr-1.5">👥</span> บุคลากร</a>
+                <a href="#" class="py-2.5 text-indigo-200 hover:text-white flex items-center"><span class="mr-1.5">📢</span> ประกาศ</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+
+        <!-- Top Grid: Hero & Quick Stats -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <!-- Hero Banner -->
+            <div class="lg:col-span-2 bg-gradient-to-r from-indigo-700 to-indigo-900 rounded-2xl p-6 sm:p-8 text-white relative overflow-hidden flex flex-col justify-between shadow-lg">
+                <div class="relative z-10 space-y-3">
+                    <h2 class="text-2xl sm:text-3xl font-bold leading-tight">เรียนรู้ คิดสร้างสรรค์<br>ก้าวสู่อนาคตดิจิทัล</h2>
+                    <p class="text-xs sm:text-sm text-indigo-100 opacity-90">สาขาเทคโนโลยีธุรกิจดิจิทัล<br>วิทยาลัยอาชีวศึกษาสระบุรี</p>
+                </div>
+                <!-- Decorative background elements -->
+                <div class="absolute right-0 bottom-0 opacity-20 transform translate-x-4 translate-y-4">
+                    <svg class="w-64 h-64" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+                </div>
+            </div>
+
+            <!-- Quick Stats Sidebar -->
+            <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 flex flex-col justify-between space-y-4">
+                <h3 class="font-bold text-sm text-slate-700 flex items-center"><span class="w-2 h-2 bg-indigo-600 rounded-full mr-2"></span> ข้อมูลสาขา</h3>
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="bg-indigo-50/60 p-3 rounded-xl flex items-center space-x-3">
+                        <div class="bg-indigo-600 text-white p-2 rounded-lg text-sm">👥</div>
+                        <div>
+                            <p class="text-[10px] text-slate-500">บุคลากร</p>
+                            <p class="font-bold text-sm text-indigo-900">5 คน</p>
+                        </div>
+                    </div>
+                    <div class="bg-sky-50/60 p-3 rounded-xl flex items-center space-x-3">
+                        <div class="bg-sky-600 text-white p-2 rounded-lg text-sm">📅</div>
+                        <div>
+                            <p class="text-[10px] text-slate-500">กิจกรรมเร็วๆ นี้</p>
+                            <p class="font-bold text-sm text-sky-900">3 รายการ</p>
+                        </div>
+                    </div>
+                    <div class="bg-rose-50/60 p-3 rounded-xl flex items-center space-x-3">
+                        <div class="bg-rose-500 text-white p-2 rounded-lg text-sm">📢</div>
+                        <div>
+                            <p class="text-[10px] text-slate-500">ประกาศล่าสุด</p>
+                            <p class="font-bold text-sm text-rose-900">5 รายการ</p>
+                        </div>
+                    </div>
+                    <div class="bg-emerald-50/60 p-3 rounded-xl flex items-center space-x-3">
+                        <div class="bg-emerald-600 text-white p-2 rounded-lg text-sm">📰</div>
+                        <div>
+                            <p class="text-[10px] text-slate-500">ข่าวสารทั้งหมด</p>
+                            <p class="font-bold text-sm text-emerald-900">10 รายการ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Middle Grid: Announcements, Schedules & Calendar -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            
+            <!-- Column 1: ประกาศล่าสุด -->
+            <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-items-center justify-between items-center mb-4">
+                        <h3 class="font-bold text-sm text-slate-800 flex items-center"><span class="text-rose-500 mr-2">📢</span> ประกาศล่าสุด</h3>
+                        <a href="#" class="text-xs text-slate-400 hover:text-indigo-600">ดูทั้งหมด →</a>
+                    </div>
+                    <div class="space-y-4 text-xs">
+                        <div class="flex items-start space-x-3 pb-3 border-b border-slate-100">
+                            <span class="bg-rose-100 text-rose-700 px-2 py-1 rounded font-medium text-[10px]">สำคัญ</span>
+                            <div>
+                                <p class="font-semibold text-slate-700">แจ้งกำหนดการสอบกลางภาคเรียนที่ 1/2569</p>
+                                <p class="text-slate-400 text-[10px] mt-0.5">7 กันยายน 2569</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3 pb-3 border-b border-slate-100">
+                            <span class="bg-sky-100 text-sky-700 px-2 py-1 rounded font-medium text-[10px]">ทั่วไป</span>
+                            <div>
+                                <p class="font-semibold text-slate-700">ส่งงานวิชา การตลาดดิจิทัล</p>
+                                <p class="text-slate-400 text-[10px] mt-0.5">5 กันยายน 2569</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3 pb-3 border-b border-slate-100">
+                            <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded font-medium text-[10px]">กิจกรรม</span>
+                            <div>
+                                <p class="font-semibold text-slate-700">กิจกรรมปฐมนิเทศนักเรียน นักศึกษา สาขา DBT</p>
+                                <p class="text-slate-400 text-[10px] mt-0.5">1 กันยายน 2569</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2: กำหนดการเร็วๆ นี้ -->
+            <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-100">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="font-bold text-sm text-slate-800 flex items-center"><span class="text-indigo-600 mr-2">📅</span> กำหนดการเร็วๆ นี้</h3>
+                    <a href="#" class="text-xs text-slate-400 hover:text-indigo-600">ดูทั้งหมด →</a>
+                </div>
+                <div class="space-y-4 text-xs">
+                    <div class="flex items-start space-x-3 pb-3 border-b border-slate-100">
+                        <div class="bg-indigo-600 text-white text-center rounded-lg p-1.5 min-w-[36px]">
+                            <span class="block font-bold text-sm">10</span>
+                            <span class="text-[9px] uppercase">ก.ย.</span>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-slate-700">ส่งงานวิชา การตลาดดิจิทัล</p>
+                            <p class="text-slate-400 text-[10px] mt-0.5">เวลา 16:00 น. | ห้อง 302</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3 pb-3 border-b border-slate-100">
+                        <div class="bg-sky-500 text-white text-center rounded-lg p-1.5 min-w-[36px]">
+                            <span class="block font-bold text-sm">15</span>
+                            <span class="text-[9px] uppercase">ก.ย.</span>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-slate-700">สอบกลางภาคเรียนที่ 1/2569</p>
+                            <p class="text-slate-400 text-[10px] mt-0.5">เวลา 09:00 น. | ห้อง 301</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3 pb-3 border-b border-slate-100">
+                        <div class="bg-rose-400 text-white text-center rounded-lg p-1.5 min-w-[36px]">
+                            <span class="block font-bold text-sm">20</span>
+                            <span class="text-[9px] uppercase">ก.ย.</span>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-slate-700">กิจกรรมสาขา DBT</p>
+                            <p class="text-slate-400 text-[10px] mt-0.5">เวลา 08:30 น. | ห้องประชุม</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 3: ปฏิทินกิจกรรม -->
+            <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-100">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="font-bold text-sm text-slate-800 flex items-center"><span class="text-indigo-600 mr-2">📆</span> ปฏิทินกิจกรรม</h3>
+                </div>
+                <div class="text-center text-xs font-semibold text-slate-600 mb-2">กันยายน 2569</div>
+                <div class="grid grid-cols-7 gap-1 text-center text-[11px] text-slate-500 mb-1">
+                    <div>อา</div><div>จ</div><div>อ</div><div>พ</div><div>พฤ</div><div>ศ</div><div>ส</div>
+                </div>
+                <div class="grid grid-cols-7 gap-1 text-center text-[11px] text-slate-700">
+                    <div class="py-1 text-slate-300">27</div><div class="py-1 text-slate-300">28</div><div class="py-1 text-slate-300">29</div><div class="py-1 text-slate-300">30</div><div class="py-1 text-slate-300">31</div><div class="py-1">1</div><div class="py-1">2</div>
+                    <div class="py-1">3</div><div class="py-1">4</div><div class="py-1">5</div><div class="py-1 bg-indigo-600 text-white rounded-full w-6 h-6 mx-auto flex items-center justify-center">7</div><div class="py-1">8</div><div class="py-1 bg-sky-500 text-white rounded-full w-6 h-6 mx-auto flex items-center justify-center">10</div><div class="py-1">11</div>
+                    <div class="py-1">12</div><div class="py-1">13</div><div class="py-1">14</div><div class="py-1 bg-emerald-500 text-white rounded-full w-6 h-6 mx-auto flex items-center justify-center">20</div><div class="py-1">21</div><div class="py-1 bg-amber-400 text-white rounded-full w-6 h-6 mx-auto flex items-center justify-center">25</div><div class="py-1">26</div>
+                    <div class="py-1">27</div><div class="py-1">28</div><div class="py-1">29</div><div class="py-1">30</div><div class="py-1 text-slate-300">1</div><div class="py-1 text-slate-300">2</div><div class="py-1 text-slate-300">3</div>
+                </div>
+                <div class="flex justify-around text-[10px] text-slate-500 mt-4 pt-3 border-t border-slate-100">
+                    <span class="flex items-center"><span class="w-2 h-2 bg-indigo-600 rounded-full mr-1"></span>ส่งงาน</span>
+                    <span class="flex items-center"><span class="w-2 h-2 bg-sky-500 rounded-full mr-1"></span>สอบ</span>
+                    <span class="flex items-center"><span class="w-2 h-2 bg-emerald-500 rounded-full mr-1"></span>กิจกรรม</span>
+                    <span class="flex items-center"><span class="w-2 h-2 bg-amber-400 rounded-full mr-1"></span>ประชุม</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bottom Grid: บุคลากร & ช่องทางติดต่อ -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            
+            <!-- บุคลากรสาขา (กินพื้นที่ 2 คอลัมน์) -->
+            <div class="lg:col-span-2 bg-white rounded-2xl p-5 shadow-sm border border-slate-100">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="font-bold text-sm text-slate-800 flex items-center"><span class="text-indigo-600 mr-2">👩‍🏫</span> บุคลากรสาขา</h3>
+                    <a href="#" class="text-xs text-slate-400 hover:text-indigo-600">ดูทั้งหมด →</a>
+                </div>
+                
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+                    <!-- บุคลากร 1 -->
+                    <div class="bg-slate-50 p-3 rounded-xl text-center space-y-2 border border-slate-100">
+                        <div class="w-16 h-16 bg-slate-300 rounded-full mx-auto overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150" alt="avatar" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-xs text-slate-800 truncate">นางสาวกนกวรรณ ศรีสุข</h4>
+                            <p class="text-[10px] text-indigo-600 font-medium">หัวหน้าสาขา</p>
+                            <p class="text-[9px] text-slate-400 truncate">สาขาเทคโนโลยีธุรกิจดิจิทัล</p>
+                        </div>
+                        <div class="text-[10px] text-slate-500 pt-1 border-t border-slate-200/60 flex items-center justify-center">
+                            📞 081-234-5678
+                        </div>
+                    </div>
+
+                    <!-- บุคลากร 2 -->
+                    <div class="bg-slate-50 p-3 rounded-xl text-center space-y-2 border border-slate-100">
+                        <div class="w-16 h-16 bg-slate-300 rounded-full mx-auto overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150" alt="avatar" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-xs text-slate-800 truncate">นางสาววิภาดา ใจดี</h4>
+                            <p class="text-[10px] text-indigo-600 font-medium">ครูประจำสาขา</p>
+                            <p class="text-[9px] text-slate-400 truncate">วิชา การตลาดดิจิทัล</p>
+                        </div>
+                        <div class="text-[10px] text-slate-500 pt-1 border-t border-slate-200/60 flex items-center justify-center">
+                            📞 081-111-2233
+                        </div>
+                    </div>
+
+                    <!-- บุคลากร 3 -->
+                    <div class="bg-slate-50 p-3 rounded-xl text-center space-y-2 border border-slate-100">
+                        <div class="w-16 h-16 bg-slate-300 rounded-full mx-auto overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150" alt="avatar" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-xs text-slate-800 truncate">นายธนากร แสงทอง</h4>
+                            <p class="text-[10px] text-indigo-600 font-medium">ครูประจำสาขา</p>
+                            <p class="text-[9px] text-slate-400 truncate">วิชา คอมพิวเตอร์ธุรกิจ</p>
+                        </div>
+                        <div class="text-[10px] text-slate-500 pt-1 border-t border-slate-200/60 flex items-center justify-center">
+                            📞 099-222-3344
+                        </div>
+                    </div>
+
+                    <!-- บุคลากร 4 -->
+                    <div class="bg-slate-50 p-3 rounded-xl text-center space-y-2 border border-slate-100">
+                        <div class="w-16 h-16 bg-slate-300 rounded-full mx-auto overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150" alt="avatar" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-xs text-slate-800 truncate">นางสาวปิยธิดา จันทร์หอม</h4>
+                            <p class="text-[10px] text-indigo-600 font-medium">ครูประจำสาขา</p>
+                            <p class="text-[9px] text-slate-400 truncate">วิชา ธุรกิจออนไลน์</p>
+                        </div>
+                        <div class="text-[10px] text-slate-500 pt-1 border-t border-slate-200/60 flex items-center justify-center">
+                            📞 089-233-4455
+                        </div>
+                    </div>
+
+                    <!-- บุคลากร 5 -->
+                    <div class="bg-slate-50 p-3 rounded-xl text-center space-y-2 border border-slate-100">
+                        <div class="w-16 h-16 bg-slate-300 rounded-full mx-auto overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150" alt="avatar" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-xs text-slate-800 truncate">นายศราวุธ อินทร์ใจ</h4>
+                            <p class="text-[10px] text-indigo-600 font-medium">ครูประจำสาขา</p>
+                            <p class="text-[9px] text-slate-400 truncate">วิชา เทคโนโลยีสารสนเทศ</p>
+                        </div>
+                        <div class="text-[10px] text-slate-500 pt-1 border-t border-slate-200/60 flex items-center justify-center">
+                            📞 087-444-5566
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ติดต่อสาขา -->
+            <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="font-bold text-sm text-slate-800 flex items-center"><span class="text-indigo-600 mr-2">📞</span> ติดต่อสาขา</h3>
+                        <div class="w-8 h-8 bg-slate-100 rounded-lg flex items-center justify-center text-xs">qr</div>
+                    </div>
+                    <div class="space-y-3 text-xs text-slate-600">
+                        <p class="flex items-center"><span class="mr-2">☎️</span> 036-123-456 (สาขา)</p>
+                        <p class="flex items-start"><span class="mr-2">📍</span> วิทยาลัยอาชีวศึกษาสระบุรี ต.มวกเหล็ก อ.มวกเหล็ก จ.สระบุรี</p>
+                        <p class="flex items-center"><span class="mr-2">🌐</span> สาขาเทคโนโลยีธุรกิจดิจิทัล DBT</p>
+                        <p class="flex items-center"><span class="mr-2">✉️</span> dbt@saraburi.ve.go.th</p>
+                    </div>
+                </div>
+                <div class="mt-6 pt-3 border-t border-slate-100 text-center">
+                    <p class="text-xs font-semibold text-indigo-900 tracking-wider">DBT สร้างคน สู่ธุรกิจดิจิทัล</p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-xs text-slate-400">
+        © 2025 สาขาเทคโนโลยีธุรกิจดิจิทัล | วิทยาลัยอาชีวศึกษาสระบุรี
+    </footer>
+
+</body>
+</html>
